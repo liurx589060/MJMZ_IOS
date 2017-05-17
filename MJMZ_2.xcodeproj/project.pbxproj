@@ -38,15 +38,15 @@
 		BB5A55B41ECAA44400D0B31C /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55AB1ECAA44400D0B31C /* SDCollectionViewCell.m */; };
 		BB5A55B51ECAA44400D0B31C /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55AD1ECAA44400D0B31C /* SDCycleScrollView.m */; };
 		BB5A55B61ECAA44400D0B31C /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55AF1ECAA44400D0B31C /* UIView+SDExtension.m */; };
-		BB5A55BC1ECAA62400D0B31C /* BannerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55BA1ECAA62400D0B31C /* BannerTableCell.m */; };
-		BB5A55BD1ECAA62400D0B31C /* BannerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55BB1ECAA62400D0B31C /* BannerTableCell.xib */; };
-		BB5A55C11ECADE5000D0B31C /* HotDesignTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55BF1ECADE5000D0B31C /* HotDesignTableCell.m */; };
-		BB5A55C21ECADE5000D0B31C /* HotDesignTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55C01ECADE5000D0B31C /* HotDesignTableCell.xib */; };
-		BB5A55C71ECAE6B700D0B31C /* HotDesignCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55C51ECAE6B700D0B31C /* HotDesignCollectionViewCell.m */; };
-		BB5A55C81ECAE6B700D0B31C /* HotDesignCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55C61ECAE6B700D0B31C /* HotDesignCollectionViewCell.xib */; };
-		BB5A55CC1ECAF96300D0B31C /* RecomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55CA1ECAF96300D0B31C /* RecomTableCell.m */; };
-		BB5A55CD1ECAF96300D0B31C /* RecomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55CB1ECAF96300D0B31C /* RecomTableCell.xib */; };
-		BB5A55D01ECB073E00D0B31C /* BaseUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55CF1ECB073E00D0B31C /* BaseUITableViewCell.m */; };
+		BB5A55E11ECC1F2E00D0B31C /* BannerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55D41ECC1F2E00D0B31C /* BannerTableCell.m */; };
+		BB5A55E21ECC1F2E00D0B31C /* BannerTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55D51ECC1F2E00D0B31C /* BannerTableCell.xib */; };
+		BB5A55E31ECC1F2E00D0B31C /* BaseUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55D71ECC1F2E00D0B31C /* BaseUITableViewCell.m */; };
+		BB5A55E41ECC1F2E00D0B31C /* HotDesignCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55D91ECC1F2E00D0B31C /* HotDesignCollectionViewCell.m */; };
+		BB5A55E51ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55DA1ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib */; };
+		BB5A55E61ECC1F2E00D0B31C /* HotDesignTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55DC1ECC1F2E00D0B31C /* HotDesignTableCell.m */; };
+		BB5A55E71ECC1F2E00D0B31C /* HotDesignTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55DD1ECC1F2E00D0B31C /* HotDesignTableCell.xib */; };
+		BB5A55E81ECC1F2E00D0B31C /* RecomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55DF1ECC1F2E00D0B31C /* RecomTableCell.m */; };
+		BB5A55E91ECC1F2E00D0B31C /* RecomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -130,20 +130,20 @@
 		BB5A55AD1ECAA44400D0B31C /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
 		BB5A55AE1ECAA44400D0B31C /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
 		BB5A55AF1ECAA44400D0B31C /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
-		BB5A55B91ECAA62400D0B31C /* BannerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerTableCell.h; sourceTree = "<group>"; };
-		BB5A55BA1ECAA62400D0B31C /* BannerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerTableCell.m; sourceTree = "<group>"; };
-		BB5A55BB1ECAA62400D0B31C /* BannerTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerTableCell.xib; sourceTree = "<group>"; };
-		BB5A55BE1ECADE5000D0B31C /* HotDesignTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDesignTableCell.h; sourceTree = "<group>"; };
-		BB5A55BF1ECADE5000D0B31C /* HotDesignTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDesignTableCell.m; sourceTree = "<group>"; };
-		BB5A55C01ECADE5000D0B31C /* HotDesignTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotDesignTableCell.xib; sourceTree = "<group>"; };
-		BB5A55C41ECAE6B700D0B31C /* HotDesignCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDesignCollectionViewCell.h; sourceTree = "<group>"; };
-		BB5A55C51ECAE6B700D0B31C /* HotDesignCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDesignCollectionViewCell.m; sourceTree = "<group>"; };
-		BB5A55C61ECAE6B700D0B31C /* HotDesignCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotDesignCollectionViewCell.xib; sourceTree = "<group>"; };
-		BB5A55C91ECAF96300D0B31C /* RecomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecomTableCell.h; sourceTree = "<group>"; };
-		BB5A55CA1ECAF96300D0B31C /* RecomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecomTableCell.m; sourceTree = "<group>"; };
-		BB5A55CB1ECAF96300D0B31C /* RecomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomTableCell.xib; sourceTree = "<group>"; };
-		BB5A55CE1ECB073E00D0B31C /* BaseUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUITableViewCell.h; sourceTree = "<group>"; };
-		BB5A55CF1ECB073E00D0B31C /* BaseUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUITableViewCell.m; sourceTree = "<group>"; };
+		BB5A55D31ECC1F2E00D0B31C /* BannerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerTableCell.h; sourceTree = "<group>"; };
+		BB5A55D41ECC1F2E00D0B31C /* BannerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerTableCell.m; sourceTree = "<group>"; };
+		BB5A55D51ECC1F2E00D0B31C /* BannerTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BannerTableCell.xib; sourceTree = "<group>"; };
+		BB5A55D61ECC1F2E00D0B31C /* BaseUITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseUITableViewCell.h; sourceTree = "<group>"; };
+		BB5A55D71ECC1F2E00D0B31C /* BaseUITableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseUITableViewCell.m; sourceTree = "<group>"; };
+		BB5A55D81ECC1F2E00D0B31C /* HotDesignCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDesignCollectionViewCell.h; sourceTree = "<group>"; };
+		BB5A55D91ECC1F2E00D0B31C /* HotDesignCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDesignCollectionViewCell.m; sourceTree = "<group>"; };
+		BB5A55DA1ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotDesignCollectionViewCell.xib; sourceTree = "<group>"; };
+		BB5A55DB1ECC1F2E00D0B31C /* HotDesignTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotDesignTableCell.h; sourceTree = "<group>"; };
+		BB5A55DC1ECC1F2E00D0B31C /* HotDesignTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotDesignTableCell.m; sourceTree = "<group>"; };
+		BB5A55DD1ECC1F2E00D0B31C /* HotDesignTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotDesignTableCell.xib; sourceTree = "<group>"; };
+		BB5A55DE1ECC1F2E00D0B31C /* RecomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecomTableCell.h; sourceTree = "<group>"; };
+		BB5A55DF1ECC1F2E00D0B31C /* RecomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecomTableCell.m; sourceTree = "<group>"; };
+		BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,7 +194,7 @@
 		BB5A55081ECA8F7900D0B31C /* MJMZ_2 */ = {
 			isa = PBXGroup;
 			children = (
-				BB5A55B81ECAA46400D0B31C /* Cells */,
+				BB5A55D21ECC1F2E00D0B31C /* Cells */,
 				BB5A55A01ECAA44400D0B31C /* SDCycleScrollView */,
 				BB5A553C1ECAA09500D0B31C /* SDWebImage */,
 				BB5A550C1ECA8F7900D0B31C /* AppDelegate.h */,
@@ -305,25 +305,25 @@
 			path = PageControl;
 			sourceTree = "<group>";
 		};
-		BB5A55B81ECAA46400D0B31C /* Cells */ = {
+		BB5A55D21ECC1F2E00D0B31C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				BB5A55B91ECAA62400D0B31C /* BannerTableCell.h */,
-				BB5A55BA1ECAA62400D0B31C /* BannerTableCell.m */,
-				BB5A55BB1ECAA62400D0B31C /* BannerTableCell.xib */,
-				BB5A55BE1ECADE5000D0B31C /* HotDesignTableCell.h */,
-				BB5A55BF1ECADE5000D0B31C /* HotDesignTableCell.m */,
-				BB5A55C01ECADE5000D0B31C /* HotDesignTableCell.xib */,
-				BB5A55C41ECAE6B700D0B31C /* HotDesignCollectionViewCell.h */,
-				BB5A55C51ECAE6B700D0B31C /* HotDesignCollectionViewCell.m */,
-				BB5A55C61ECAE6B700D0B31C /* HotDesignCollectionViewCell.xib */,
-				BB5A55C91ECAF96300D0B31C /* RecomTableCell.h */,
-				BB5A55CA1ECAF96300D0B31C /* RecomTableCell.m */,
-				BB5A55CB1ECAF96300D0B31C /* RecomTableCell.xib */,
-				BB5A55CE1ECB073E00D0B31C /* BaseUITableViewCell.h */,
-				BB5A55CF1ECB073E00D0B31C /* BaseUITableViewCell.m */,
+				BB5A55D31ECC1F2E00D0B31C /* BannerTableCell.h */,
+				BB5A55D41ECC1F2E00D0B31C /* BannerTableCell.m */,
+				BB5A55D51ECC1F2E00D0B31C /* BannerTableCell.xib */,
+				BB5A55D61ECC1F2E00D0B31C /* BaseUITableViewCell.h */,
+				BB5A55D71ECC1F2E00D0B31C /* BaseUITableViewCell.m */,
+				BB5A55D81ECC1F2E00D0B31C /* HotDesignCollectionViewCell.h */,
+				BB5A55D91ECC1F2E00D0B31C /* HotDesignCollectionViewCell.m */,
+				BB5A55DA1ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib */,
+				BB5A55DB1ECC1F2E00D0B31C /* HotDesignTableCell.h */,
+				BB5A55DC1ECC1F2E00D0B31C /* HotDesignTableCell.m */,
+				BB5A55DD1ECC1F2E00D0B31C /* HotDesignTableCell.xib */,
+				BB5A55DE1ECC1F2E00D0B31C /* RecomTableCell.h */,
+				BB5A55DF1ECC1F2E00D0B31C /* RecomTableCell.m */,
+				BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */,
 			);
-			name = Cells;
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,13 +429,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB5A55CD1ECAF96300D0B31C /* RecomTableCell.xib in Resources */,
-				BB5A55C81ECAE6B700D0B31C /* HotDesignCollectionViewCell.xib in Resources */,
+				BB5A55E91ECC1F2E00D0B31C /* RecomTableCell.xib in Resources */,
+				BB5A55E71ECC1F2E00D0B31C /* HotDesignTableCell.xib in Resources */,
 				BB5A55191ECA8F7900D0B31C /* LaunchScreen.storyboard in Resources */,
 				BB5A55161ECA8F7900D0B31C /* Assets.xcassets in Resources */,
-				BB5A55BD1ECAA62400D0B31C /* BannerTableCell.xib in Resources */,
+				BB5A55E21ECC1F2E00D0B31C /* BannerTableCell.xib in Resources */,
+				BB5A55E51ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib in Resources */,
 				BB5A55141ECA8F7900D0B31C /* Main.storyboard in Resources */,
-				BB5A55C21ECADE5000D0B31C /* HotDesignTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,17 +463,18 @@
 				BB5A556B1ECAA09500D0B31C /* UIImageView+HighlightedWebCache.m in Sources */,
 				BB5A55B01ECAA44400D0B31C /* TAAbstractDotView.m in Sources */,
 				BB5A555F1ECAA09500D0B31C /* NSData+ImageContentType.m in Sources */,
-				BB5A55BC1ECAA62400D0B31C /* BannerTableCell.m in Sources */,
+				BB5A55E11ECC1F2E00D0B31C /* BannerTableCell.m in Sources */,
+				BB5A55E81ECC1F2E00D0B31C /* RecomTableCell.m in Sources */,
 				BB5A55651ECAA09500D0B31C /* SDWebImageManager.m in Sources */,
 				BB5A55631ECAA09500D0B31C /* SDWebImageDownloader.m in Sources */,
+				BB5A55E61ECC1F2E00D0B31C /* HotDesignTableCell.m in Sources */,
 				BB5A556A1ECAA09500D0B31C /* UIImage+WebP.m in Sources */,
 				BB5A556D1ECAA09500D0B31C /* UIView+WebCacheOperation.m in Sources */,
-				BB5A55C11ECADE5000D0B31C /* HotDesignTableCell.m in Sources */,
 				BB5A55B61ECAA44400D0B31C /* UIView+SDExtension.m in Sources */,
 				BB5A55601ECAA09500D0B31C /* SDImageCache.m in Sources */,
 				BB5A55B11ECAA44400D0B31C /* TAAnimatedDotView.m in Sources */,
-				BB5A55D01ECB073E00D0B31C /* BaseUITableViewCell.m in Sources */,
 				BB5A55B51ECAA44400D0B31C /* SDCycleScrollView.m in Sources */,
+				BB5A55E31ECC1F2E00D0B31C /* BaseUITableViewCell.m in Sources */,
 				BB5A55111ECA8F7900D0B31C /* ViewController.m in Sources */,
 				BB5A555E1ECAA09500D0B31C /* MKAnnotationView+WebCache.m in Sources */,
 				BB5A55B31ECAA44400D0B31C /* TAPageControl.m in Sources */,
@@ -484,8 +485,7 @@
 				BB5A55671ECAA09500D0B31C /* UIButton+WebCache.m in Sources */,
 				BB5A55661ECAA09500D0B31C /* SDWebImagePrefetcher.m in Sources */,
 				BB5A556C1ECAA09500D0B31C /* UIImageView+WebCache.m in Sources */,
-				BB5A55CC1ECAF96300D0B31C /* RecomTableCell.m in Sources */,
-				BB5A55C71ECAE6B700D0B31C /* HotDesignCollectionViewCell.m in Sources */,
+				BB5A55E41ECC1F2E00D0B31C /* HotDesignCollectionViewCell.m in Sources */,
 				BB5A55611ECAA09500D0B31C /* SDWebImageCompat.m in Sources */,
 				BB5A55B21ECAA44400D0B31C /* TADotView.m in Sources */,
 				BB5A55681ECAA09500D0B31C /* UIImage+GIF.m in Sources */,
