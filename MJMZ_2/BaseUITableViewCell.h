@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BaseUITableViewCell.h
 //  MJMZ_2
 //
 //  Created by Liu Runxiong on 17/5/16.
@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UITableView *mTableView;
-
+@interface BaseUITableViewCell : UITableViewCell
+@property (nonatomic,assign) CGFloat heightCell;
 
 @end
-
