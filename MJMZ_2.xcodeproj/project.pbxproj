@@ -47,6 +47,13 @@
 		BB5A55E71ECC1F2E00D0B31C /* HotDesignTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55DD1ECC1F2E00D0B31C /* HotDesignTableCell.xib */; };
 		BB5A55E81ECC1F2E00D0B31C /* RecomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55DF1ECC1F2E00D0B31C /* RecomTableCell.m */; };
 		BB5A55E91ECC1F2E00D0B31C /* RecomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */; };
+		BB5A55ED1ECD370900D0B31C /* WaterLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55EB1ECD370900D0B31C /* WaterLayoutViewController.m */; };
+		BB5A55EE1ECD370900D0B31C /* WaterLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55EC1ECD370900D0B31C /* WaterLayoutViewController.xib */; };
+		BB5A55F01ECD3C6B00D0B31C /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55EF1ECD3C6B00D0B31C /* 1.plist */; };
+		BB5A55F41ECD3CC400D0B31C /* XRImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55F31ECD3CC400D0B31C /* XRImage.m */; };
+		BB5A55F81ECD3D4300D0B31C /* XRWaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55F71ECD3D4300D0B31C /* XRWaterfallLayout.m */; };
+		BB5A55FC1ECD3D6400D0B31C /* XRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5A55FA1ECD3D6400D0B31C /* XRCollectionViewCell.m */; };
+		BB5A55FD1ECD3D6400D0B31C /* XRCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB5A55FB1ECD3D6400D0B31C /* XRCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +151,17 @@
 		BB5A55DE1ECC1F2E00D0B31C /* RecomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecomTableCell.h; sourceTree = "<group>"; };
 		BB5A55DF1ECC1F2E00D0B31C /* RecomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecomTableCell.m; sourceTree = "<group>"; };
 		BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomTableCell.xib; sourceTree = "<group>"; };
+		BB5A55EA1ECD370900D0B31C /* WaterLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterLayoutViewController.h; sourceTree = "<group>"; };
+		BB5A55EB1ECD370900D0B31C /* WaterLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterLayoutViewController.m; sourceTree = "<group>"; };
+		BB5A55EC1ECD370900D0B31C /* WaterLayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WaterLayoutViewController.xib; sourceTree = "<group>"; };
+		BB5A55EF1ECD3C6B00D0B31C /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		BB5A55F21ECD3CC400D0B31C /* XRImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRImage.h; sourceTree = "<group>"; };
+		BB5A55F31ECD3CC400D0B31C /* XRImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRImage.m; sourceTree = "<group>"; };
+		BB5A55F61ECD3D4300D0B31C /* XRWaterfallLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRWaterfallLayout.h; sourceTree = "<group>"; };
+		BB5A55F71ECD3D4300D0B31C /* XRWaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRWaterfallLayout.m; sourceTree = "<group>"; };
+		BB5A55F91ECD3D6400D0B31C /* XRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCollectionViewCell.h; sourceTree = "<group>"; };
+		BB5A55FA1ECD3D6400D0B31C /* XRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCollectionViewCell.m; sourceTree = "<group>"; };
+		BB5A55FB1ECD3D6400D0B31C /* XRCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XRCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,17 +212,23 @@
 		BB5A55081ECA8F7900D0B31C /* MJMZ_2 */ = {
 			isa = PBXGroup;
 			children = (
+				BB5A55F11ECD3CB600D0B31C /* Models */,
 				BB5A55D21ECC1F2E00D0B31C /* Cells */,
+				BB5A55F51ECD3D4300D0B31C /* XRWaterfallLayout */,
 				BB5A55A01ECAA44400D0B31C /* SDCycleScrollView */,
 				BB5A553C1ECAA09500D0B31C /* SDWebImage */,
 				BB5A550C1ECA8F7900D0B31C /* AppDelegate.h */,
 				BB5A550D1ECA8F7900D0B31C /* AppDelegate.m */,
 				BB5A550F1ECA8F7900D0B31C /* ViewController.h */,
 				BB5A55101ECA8F7900D0B31C /* ViewController.m */,
+				BB5A55EA1ECD370900D0B31C /* WaterLayoutViewController.h */,
+				BB5A55EB1ECD370900D0B31C /* WaterLayoutViewController.m */,
+				BB5A55EC1ECD370900D0B31C /* WaterLayoutViewController.xib */,
 				BB5A55121ECA8F7900D0B31C /* Main.storyboard */,
 				BB5A55151ECA8F7900D0B31C /* Assets.xcassets */,
 				BB5A55171ECA8F7900D0B31C /* LaunchScreen.storyboard */,
 				BB5A551A1ECA8F7900D0B31C /* Info.plist */,
+				BB5A55EF1ECD3C6B00D0B31C /* 1.plist */,
 				BB5A55091ECA8F7900D0B31C /* Supporting Files */,
 			);
 			path = MJMZ_2;
@@ -308,6 +332,9 @@
 		BB5A55D21ECC1F2E00D0B31C /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				BB5A55F91ECD3D6400D0B31C /* XRCollectionViewCell.h */,
+				BB5A55FA1ECD3D6400D0B31C /* XRCollectionViewCell.m */,
+				BB5A55FB1ECD3D6400D0B31C /* XRCollectionViewCell.xib */,
 				BB5A55D31ECC1F2E00D0B31C /* BannerTableCell.h */,
 				BB5A55D41ECC1F2E00D0B31C /* BannerTableCell.m */,
 				BB5A55D51ECC1F2E00D0B31C /* BannerTableCell.xib */,
@@ -324,6 +351,24 @@
 				BB5A55E01ECC1F2E00D0B31C /* RecomTableCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB5A55F11ECD3CB600D0B31C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB5A55F21ECD3CC400D0B31C /* XRImage.h */,
+				BB5A55F31ECD3CC400D0B31C /* XRImage.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB5A55F51ECD3D4300D0B31C /* XRWaterfallLayout */ = {
+			isa = PBXGroup;
+			children = (
+				BB5A55F61ECD3D4300D0B31C /* XRWaterfallLayout.h */,
+				BB5A55F71ECD3D4300D0B31C /* XRWaterfallLayout.m */,
+			);
+			path = XRWaterfallLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,6 +480,9 @@
 				BB5A55161ECA8F7900D0B31C /* Assets.xcassets in Resources */,
 				BB5A55E21ECC1F2E00D0B31C /* BannerTableCell.xib in Resources */,
 				BB5A55E51ECC1F2E00D0B31C /* HotDesignCollectionViewCell.xib in Resources */,
+				BB5A55F01ECD3C6B00D0B31C /* 1.plist in Resources */,
+				BB5A55EE1ECD370900D0B31C /* WaterLayoutViewController.xib in Resources */,
+				BB5A55FD1ECD3D6400D0B31C /* XRCollectionViewCell.xib in Resources */,
 				BB5A55141ECA8F7900D0B31C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -467,7 +515,9 @@
 				BB5A55E81ECC1F2E00D0B31C /* RecomTableCell.m in Sources */,
 				BB5A55651ECAA09500D0B31C /* SDWebImageManager.m in Sources */,
 				BB5A55631ECAA09500D0B31C /* SDWebImageDownloader.m in Sources */,
+				BB5A55F41ECD3CC400D0B31C /* XRImage.m in Sources */,
 				BB5A55E61ECC1F2E00D0B31C /* HotDesignTableCell.m in Sources */,
+				BB5A55FC1ECD3D6400D0B31C /* XRCollectionViewCell.m in Sources */,
 				BB5A556A1ECAA09500D0B31C /* UIImage+WebP.m in Sources */,
 				BB5A556D1ECAA09500D0B31C /* UIView+WebCacheOperation.m in Sources */,
 				BB5A55B61ECAA44400D0B31C /* UIView+SDExtension.m in Sources */,
@@ -482,6 +532,8 @@
 				BB5A55691ECAA09500D0B31C /* UIImage+MultiFormat.m in Sources */,
 				BB5A55641ECAA09500D0B31C /* SDWebImageDownloaderOperation.m in Sources */,
 				BB5A550E1ECA8F7900D0B31C /* AppDelegate.m in Sources */,
+				BB5A55ED1ECD370900D0B31C /* WaterLayoutViewController.m in Sources */,
+				BB5A55F81ECD3D4300D0B31C /* XRWaterfallLayout.m in Sources */,
 				BB5A55671ECAA09500D0B31C /* UIButton+WebCache.m in Sources */,
 				BB5A55661ECAA09500D0B31C /* SDWebImagePrefetcher.m in Sources */,
 				BB5A556C1ECAA09500D0B31C /* UIImageView+WebCache.m in Sources */,

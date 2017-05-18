@@ -11,6 +11,7 @@
 #import "BannerTableCell.h"
 #import "HotDesignTableCell.h"
 #import "RecomTableCell.h"
+#import "WaterLayoutViewController.h"
 
 static NSString *BANNER_IDENTIFIER = @"banner_identifier";
 static NSString *HOT_DESIGN_IDENTIFIER = @"hot_design_identifier";
@@ -97,6 +98,13 @@ static NSString *Recom_Goods_IDENTIFIER = @"recom_goods_identifier";
         height = cell.heightCell;
     }
     return height;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    if(indexPath.row > 1) {
+        WaterLayoutViewController *vc = [[WaterLayoutViewController alloc] init];
+        [self presentViewController:vc animated:YES completion:nil];
+    }
 }
 
 
